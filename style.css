@@ -1,0 +1,245 @@
+*{
+    padding: 0%;
+    margin:0;
+}
+
+body {
+    background-color: #EAE8FB;
+}
+
+
+/* NavBar :- */
+.navbar{
+    padding: 6px;
+    top:0;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    color: #000000;
+    background-color: #ffffff; 
+}
+.navbar .name{
+    float: left; 
+    padding-left: 20px;
+    align-items: center;       
+}
+span{
+    font-size: large;
+    font-weight: bolder;
+}
+.navbar ul{
+    float: right;
+    padding: 5px;
+}
+.navbar li {
+    list-style: none;
+    float: left;
+}
+
+.navbar li a{
+    padding-right: 50px;  
+    text-decoration: none;
+    font-family: 'Times new roman';
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* Starter:- */
+
+.starter {
+    height:720px;  
+    background-image: url(images/cars1.png);  
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    align-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
+}
+
+
+.starter h1{
+    
+    font-family: 'Courier New';
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 100px;
+    padding-top: 200px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    color: #F8F9F3;
+    mix-blend-mode: normal;
+}
+
+.starter button {
+    text-align: center;
+    border: none;
+    padding: 15px;
+    margin-left: 600px;
+    width: fit-content;
+    font-weight: bolder;
+    background-color: #EAE8FB;
+    font-family: 'times new roman';
+    letter-spacing: 0.14em;
+    font-size: 30px;
+}
+
+
+/* Revol:- */
+
+.revol {
+    height: 800px;
+}
+
+.desc {
+    height: 18%;
+    padding: 10px;
+    padding-top: 40px;
+}
+.desc h1 {
+    padding: 10px;
+    font-size: larger;
+    font-size: 50px;
+    padding-left: 7%;
+    float:left;
+}
+.desc #p1 {
+    width: 40%;
+    padding-top: 30px;
+    margin-right: 60px;
+    font-style: italic;
+    float:right;
+    font-size: 18px;
+}
+.learn {
+    float:right;
+    padding-left: 35%;;
+    padding-right: 5%;
+    color: #7E6FFC;
+    font-style: style;
+}
+
+.pics {
+    padding : 0px 40px 40px 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left {
+ 
+    height: 565px;
+    width: 500px;
+}
+
+.lower {
+    padding-top: 10px   ;
+}
+
+/* Services :- */
+.services {
+    background-color: #7E6FFC   ;
+}
+
+.serDesc {
+    color: #F8F9F3;
+    display: flex;
+    flex-direction:row;
+}
+.serDesc h1 {
+    padding:50px;
+    font-size: 64px;
+}
+.serDesc p {
+    padding:30px;
+    padding-top:60px;
+    padding-left: 700px;
+    letter-spacing: 1px;
+    font-family: Courier;
+    font-style: italic;
+    font-size: 15px;
+    width: 400px;
+}
+
+.serPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+#car1, #car2, #car3, #car4, #car5 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.explore {
+    height: 40px;
+    width: 100%;
+    text-align: right;
+    color: #ffff;
+    background-color: #7E6FFC;
+    margin-top: 0;
+    font-style: italic;
+}
+.explore p {
+    padding-right:50px;
+}
+
+/* Footer:- */ 
+
+.footer {
+    height: 400px;
+}
+
+.top {
+    padding: 40px;
+    display:flex;  
+    justify-content: space-between;  
+}
+
+.join{
+    font-size: 25px;
+}
+
+.contact {
+    padding-right: 50px;
+}
+.contact #btn {
+    background-color: #7E6FFC;
+    color: #ffff;
+    width: 121px;
+    height: 55px;
+    border-radius: 49px;
+    border: none;
+    font-size: 17px;
+}
+.contact #email {
+    height: 55px;
+    width:300px;
+    border-radius: 49px;
+    font-weight: bold;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.col1, .col2, .col3, .col4 {
+    display: flex;
+    flex-direction: column;
+}
+.foot a {
+    text-decoration: none;
+    color : black ;
+    line-height: 45px;
+    font-size: 20px;
+}
